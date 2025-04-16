@@ -17,6 +17,56 @@
     text-align: center;
 }
 
+#loginContainer {
+  display: flex;
+}
+
+.login-page,
+.gender-page {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  padding: 10px;
+  width: 80%;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.gender-btn {
+  background: #2196F3;
+}
+
+.skip-btn {
+  background: #999;
+}
+
+.birthday-select {
+  margin-top: 15px;
+}
+
 h2, h3 {
     color: #2c3e50;
     margin-bottom: 10px;
